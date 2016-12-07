@@ -2,20 +2,20 @@
 1 verbose cli [ '/usr/local/Cellar/node/6.3.0/bin/node',
 1 verbose cli   '/usr/local/bin/npm',
 1 verbose cli   'run',
-1 verbose cli   'test-karma' ]
+1 verbose cli   'test-unit' ]
 2 info using npm@4.0.5
 3 info using node@v6.3.0
-4 verbose run-script [ 'pretest-karma', 'test-karma', 'posttest-karma' ]
-5 info lifecycle todoappanu@1.0.0~pretest-karma: todoappanu@1.0.0
-6 silly lifecycle todoappanu@1.0.0~pretest-karma: no script for pretest-karma, continuing
-7 info lifecycle todoappanu@1.0.0~test-karma: todoappanu@1.0.0
-8 verbose lifecycle todoappanu@1.0.0~test-karma: unsafe-perm in lifecycle true
-9 verbose lifecycle todoappanu@1.0.0~test-karma: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/akurian/webProjects/todoApp/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.5/bin:/Users/akurian/lein/bin
-10 verbose lifecycle todoappanu@1.0.0~test-karma: CWD: /Users/akurian/webProjects/todoApp
-11 silly lifecycle todoappanu@1.0.0~test-karma: Args: [ '-c', 'karma start' ]
-12 silly lifecycle todoappanu@1.0.0~test-karma: Returned: code: 1  signal: null
-13 info lifecycle todoappanu@1.0.0~test-karma: Failed to exec test-karma script
-14 verbose stack Error: todoappanu@1.0.0 test-karma: `karma start`
+4 verbose run-script [ 'pretest-unit', 'test-unit', 'posttest-unit' ]
+5 info lifecycle todoappanu@1.0.0~pretest-unit: todoappanu@1.0.0
+6 silly lifecycle todoappanu@1.0.0~pretest-unit: no script for pretest-unit, continuing
+7 info lifecycle todoappanu@1.0.0~test-unit: todoappanu@1.0.0
+8 verbose lifecycle todoappanu@1.0.0~test-unit: unsafe-perm in lifecycle true
+9 verbose lifecycle todoappanu@1.0.0~test-unit: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/akurian/webProjects/todoApp/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/9.5/bin:/Users/akurian/lein/bin
+10 verbose lifecycle todoappanu@1.0.0~test-unit: CWD: /Users/akurian/webProjects/todoApp
+11 silly lifecycle todoappanu@1.0.0~test-unit: Args: [ '-c', 'karma start' ]
+12 silly lifecycle todoappanu@1.0.0~test-unit: Returned: code: 1  signal: null
+13 info lifecycle todoappanu@1.0.0~test-unit: Failed to exec test-unit script
+14 verbose stack Error: todoappanu@1.0.0 test-unit: `karma start`
 14 verbose stack Exit status 1
 14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:279:16)
 14 verbose stack     at emitTwo (events.js:106:13)
@@ -28,13 +28,13 @@
 15 verbose pkgid todoappanu@1.0.0
 16 verbose cwd /Users/akurian/webProjects/todoApp
 17 error Darwin 15.6.0
-18 error argv "/usr/local/Cellar/node/6.3.0/bin/node" "/usr/local/bin/npm" "run" "test-karma"
+18 error argv "/usr/local/Cellar/node/6.3.0/bin/node" "/usr/local/bin/npm" "run" "test-unit"
 19 error node v6.3.0
 20 error npm  v4.0.5
 21 error code ELIFECYCLE
-22 error todoappanu@1.0.0 test-karma: `karma start`
+22 error todoappanu@1.0.0 test-unit: `karma start`
 22 error Exit status 1
-23 error Failed at the todoappanu@1.0.0 test-karma script 'karma start'.
+23 error Failed at the todoappanu@1.0.0 test-unit script 'karma start'.
 23 error Make sure you have the latest version of node.js and npm installed.
 23 error If you do, this is most likely a problem with the todoappanu package,
 23 error not with npm itself.

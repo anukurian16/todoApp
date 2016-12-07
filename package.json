@@ -20,8 +20,8 @@
     "require": "^2.4.20"
   },
   "scripts": {
-    "test": "./node_modules/.bin/jasmine-node tests/intTest.js",
-    "test-karma": "karma start",
+    "test-int": "./node_modules/.bin/jasmine-node tests/intTest.js",
+    "test-unit": "karma start",
     "start": "node src/index.js"
   },
   "repository": {
